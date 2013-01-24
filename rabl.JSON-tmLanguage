@@ -1,0 +1,19 @@
+{ "name": "Rabl",
+  "scopeName": "source.rabl",
+  "fileTypes": ["rabl"],
+  "patterns": [
+  	{
+  		"match": "object|attributes|collection|attribute|lambda|do|end|unless",
+  		"name" : "keyword.source.rabl"
+  	},
+  	{
+  		"match": "@{1,2}[^\\.\\s\\(\\[=@]+\\b",
+  		"name": "variable.source.rabl"
+  	},
+  	{
+  		"match": "\\:[^\\.\\s=]+\\b",
+  		"name": "string.source.rabl"
+  	}
+  ],
+  "uuid": "134b1791-d994-40a9-980e-dcc2c1b687f3"
+}
