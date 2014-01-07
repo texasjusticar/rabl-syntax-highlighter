@@ -12,7 +12,7 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>object|attributes|collection|attribute|lambda|do|end|unless</string>
+			<string>object|attributes|collection|attribute|extends|lambda|do|end|unless</string>
 			<key>name</key>
 			<string>keyword.source.rabl</string>
 		</dict>
