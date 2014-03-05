@@ -28,6 +28,12 @@
 			<key>name</key>
 			<string>string.source.rabl</string>
 		</dict>
+		<dict>
+			<key>match</key>
+			<string>\#.*</string>
+			<key>name</key>
+			<string>comment.source.rabl</string>
+		</dict>
 	</array>
 	<key>scopeName</key>
 	<string>source.rabl</string>

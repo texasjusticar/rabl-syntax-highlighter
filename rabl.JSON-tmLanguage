@@ -14,6 +14,10 @@
   		"match": "\\:[^\\.\\s=]+\\b",
   		"name": "string.source.rabl"
   	}
+    {
+      "match": "\\#.*",
+      "name": "comment.source.rabl"
+    }
   ],
   "uuid": "134b1791-d994-40a9-980e-dcc2c1b687f3"
 }
